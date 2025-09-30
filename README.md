@@ -1,5 +1,5 @@
 
-💳 #Kredi Kartı Ödeme Formu Uygulaması
+💳 Kredi Kartı Ödeme Formu Uygulaması
 Bu proje, bir kredi kartı ödeme bilgilerini güvenli bir şekilde toplamak için oluşturulmuş tek sayfalık (Single Component) bir React uygulamasıdır. Tailwind CSS ile hızlı ve modern bir arayüz tasarlanmıştır.
 
 Özellikler
