@@ -1,5 +1,5 @@
 
-💳 Kredi Kartı Ödeme Formu Uygulaması
+💳 #Kredi Kartı Ödeme Formu Uygulaması
 Bu proje, bir kredi kartı ödeme bilgilerini güvenli bir şekilde toplamak için oluşturulmuş tek sayfalık (Single Component) bir React uygulamasıdır. Tailwind CSS ile hızlı ve modern bir arayüz tasarlanmıştır.
 
 Özellikler
@@ -28,13 +28,13 @@ cd [PROJE_KLASÖRÜ]
 Bağımlılıkları Yükleyin:
 
 npm install
-# veya
+veya
 yarn install
 
 Uygulamayı Başlatın:
 
 npm run dev  # Vite, yeni standartlar için genellikle 'dev' kullanır
-# veya
+veya
 npm start    # Eski standartlar için 'start' kullanır
 
 Uygulama genellikle http://localhost:5173 veya http://localhost:3000 adresinde açılacaktır. Lütfen terminal çıktınızı kontrol ediniz.
