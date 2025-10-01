@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from 'react';
 
 const App = () => {
 
@@ -8,7 +9,7 @@ const App = () => {
   const [year, setYear] = useState("");
   const [code, setCode] = useState("");
 
-  const bilgiMesaji=(e)=>{
+  const bilgiMesaji=(e: React.FormEvent)=>{
     e.preventDefault();
     const mesaj=
       `Ödeme Bilgileri Alındı:
