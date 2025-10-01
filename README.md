@@ -1,65 +1,44 @@
 
-# React + Vite Başlangıç Şablonu
+💳 Kredi Kartı Ödeme Formu Uygulaması
+Bu proje, bir kredi kartı ödeme bilgilerini güvenli bir şekilde toplamak için oluşturulmuş tek sayfalık (Single Component) bir React uygulamasıdır. Tailwind CSS ile hızlı ve modern bir arayüz tasarlanmıştır.
 
-Bu proje, modern bir React uygulaması başlatmak için temel bir yapı sunar. Vite kullanılarak yapılandırılmıştır ve Tailwind CSS ile birlikte gelir.
+Özellikler
+Form Kontrolü: Tüm input alanları (İsim, Kart Numarası, Güvenlik Kodu) React'in useState Hook'u ile yönetilir.
 
-## 🚀 Hızlı Başlangıç
+Veri Toplama: "Şimdi Öde" butonuna tıklandığında, form verileri toplanır ve bir alert mesajı ile kullanıcıya gösterilir.
 
-Projeyi bilgisayarına klonlamak ve başlatmak için aşağıdaki adımları takip edebilirsin:
+Güvenli Gönderim: Form gönderildiğinde sayfanın yenilenmesi e.preventDefault() metodu ile engellenir.
 
-```bash
-npx degit ozcanzaferayan/react proje-adi
-cd proje-adi
+Kurulum ve Çalıştırma
+Bu proje React (JSX) ve Tailwind CSS kullanılarak geliştirilmiştir.
+
+Ön Gereksinimler
+Node.js ve npm (veya yarn/pnpm) kurulu olmalıdır.
+
+
+Bağımlılıkları Yükleyin:
+
 npm install
-npm run dev
-```
+veya
+yarn install
 
-> Bu komut sayesinde Git geçmişi olmadan yalnızca proje dosyaları indirilir.
+Uygulamayı Başlatın:
 
-## 📁 Klasör Yapısı
+npm run dev  # Vite, yeni standartlar için genellikle 'dev' kullanır
+veya
+npm start    # Eski standartlar için 'start' kullanır
 
-```
-proje-adi/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── App.tsx
-│   ├── index.css
-│   ├── main.tsx
-│   └── vite-env.d.ts
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package.json
-├── package-lock.json
-├── README.md
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.node.json
-└── vite.config.ts
-```
+Uygulama genellikle http://localhost:5173 veya http://localhost:3000 adresinde açılacaktır. Lütfen terminal çıktınızı kontrol ediniz.
 
-## 🛠 Teknolojiler
+Kullanılan Teknolojiler
+React: Kullanıcı arayüzü kütüphanesi.
 
-- ⚛️ React
-- ⚡ Vite
-- 🎨 Tailwind CSS
-- 🧹 ESLint
-- 🟦 TypeScript
+Tailwind CSS: Hızlı ve esnek stil oluşturmak için.
 
-## 🧪 Gereksinimler
+JavaScript (ES6+): Uygulama mantığı.
 
-- Node.js 18+
-- npm (veya yarn)
 
-## 🌐 GitHub
+Kodun Önizlemesi:
+![fff](https://github.com/user-attachments/assets/ea5a1d59-f517-40e0-9d20-2c15c083863d)
 
-[Proje GitHub Sayfası](https://github.com/ozcanzaferayan/react)
 
-## 📄 Lisans
-
-MIT Lisansı ile lisanslanmıştır. Özgürce kullanabilir, düzenleyebilir ve paylaşabilirsiniz.
-
----
-
-Keyifli kodlamalar! 🎉
