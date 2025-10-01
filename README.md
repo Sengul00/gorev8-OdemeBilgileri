@@ -5,13 +5,9 @@ Bu proje, bir kredi kartı ödeme bilgilerini güvenli bir şekilde toplamak iç
 Özellikler
 Form Kontrolü: Tüm input alanları (İsim, Kart Numarası, Güvenlik Kodu) React'in useState Hook'u ile yönetilir.
 
-Dinamik Seçiciler: Ay (1-12) ve Yıl (Mevcut yıldan itibaren 11 yıl) seçenekleri dinamik olarak oluşturulur.
-
 Veri Toplama: "Şimdi Öde" butonuna tıklandığında, form verileri toplanır ve bir alert mesajı ile kullanıcıya gösterilir.
 
 Güvenli Gönderim: Form gönderildiğinde sayfanın yenilenmesi e.preventDefault() metodu ile engellenir.
-
-Boş Değer Uyarısı: Alert mesajında, boş bırakılan alanlar için "Girilmedi" veya "Seçilmedi" ibaresi gösterilir.
 
 Kurulum ve Çalıştırma
 Bu proje React (JSX) ve Tailwind CSS kullanılarak geliştirilmiştir.
@@ -19,11 +15,6 @@ Bu proje React (JSX) ve Tailwind CSS kullanılarak geliştirilmiştir.
 Ön Gereksinimler
 Node.js ve npm (veya yarn/pnpm) kurulu olmalıdır.
 
-Adımlar
-Projeyi Klonlayın:
-
-git clone [REPO_ADRESİNİZ]
-cd [PROJE_KLASÖRÜ]
 
 Bağımlılıkları Yükleyin:
 
@@ -46,5 +37,8 @@ Tailwind CSS: Hızlı ve esnek stil oluşturmak için.
 
 JavaScript (ES6+): Uygulama mantığı.
 
-Katkıda Bulunma
-Hata raporları ve geliştirme önerileri kabul edilir. Lütfen yeni bir özellik eklemeden önce bir 'Issue' (Sorun) açınız.
+
+Kodun Önizlemesi:
+![fff](https://github.com/user-attachments/assets/ea5a1d59-f517-40e0-9d20-2c15c083863d)
+
+
